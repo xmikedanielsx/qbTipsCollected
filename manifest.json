@@ -1,0 +1,11 @@
+{
+    "name": "QuickBooks Online Extension for Chris",
+    "version": "1.0.0",
+    "description": "This extension is for Chris to help do payroll for his company",
+    "manifest_version": 3,
+    "author": "Mike Daniels",
+    "action": {
+        "matches": ["https://*/*"],
+        "default_popup": "index.html"
+    }
+}
